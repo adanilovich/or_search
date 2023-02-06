@@ -1,0 +1,21 @@
+[package]
+name = "or_search"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.5"
+lazy_static = "0.1.*"
+once_cell = "1.5"
+hwloc = "0.3.0"
+libc = "0.2.119"
+thread-id = "4.0.0"
+rayon = "1.5"
+num_cpus="1.13.1"
+crossbeam-utils = "0.8.7"
+urlencoding = "2.1.0"
+html-escape = "0.2.9"
+base64 = "0.3.0"
+url = "2.2.2"

@@ -1,0 +1,27 @@
+# or_search
+
+or_search scans files to find open redirect vulnerabilities.
+
+
+## Install
+
+or_search is written in Rust. You should install cargo package manager before.
+
+```
+▶ git clone github.com/adanilovich/or_search
+▶ make build
+▶ cat path_list.txt | ./or_search
+```
+
+```
+path_list.txt
+-------------
+./folder/c.css
+./folder/b.js
+./folder/a.html
+```
+
+```
+Example output:
+https://doman.com/ext/aHR0cHM6Ly9nb29nbGUuY29t
+```
